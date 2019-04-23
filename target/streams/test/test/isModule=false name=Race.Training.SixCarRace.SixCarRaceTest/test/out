@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSixCarRaceTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- permutations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- points *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  100 was not equal to 10000 (SixCarRaceTest.scala:23)[0m[0m

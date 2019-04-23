@@ -1,0 +1,12 @@
+#Successful Tests
+#Mon Apr 22 22:39:58 JST 2019
+Race.ui.LineStandardFormTest=1555940398572
+Race.evolution.Cars.SimpleCarRouteTest=1555940398571
+Race.io.Wrappers.TrackWrapperTest=1555940398801
+Race.ui.PointTest=1555940398680
+Race.common.LineSlopeInterceptTest=1555940398572
+Race.common.TrackTest=1555940398777
+Race.common.ForceTest=1555940398696
+Race.common.LineSegmentTest=1555940398572
+Race.evolution.Cars.SimpleCarStateTest=1555940398571
+Race.evolution.PopulationFileStoreTest=1555940398687

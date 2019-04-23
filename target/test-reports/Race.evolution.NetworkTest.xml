@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="MooD00593" name="Race.evolution.NetworkTest" tests="7" errors="0" failures="1" skipped="0" time="0.318" timestamp="2019-04-22T22:39:58">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="idea.runid" value="2018.2"/><property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/><property name="java.vm.version" value="25.121-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="GB"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Code\Local\Car"/><property name="java.runtime.version" value="1.8.0_121-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/><property name="os.arch" value="x86"/><property name="java.io.tmpdir" value="C:\Users\CHRIS~1.UNS\AppData\Local\Temp\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\CHRIS~1.UNS\AppData\Local\Temp\jna-503822667\jna364779515943210515.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\scala\bin;C:\maven\apache-maven-3.5.4\bin;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\protobuf\bin;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\WinMerge;C:\Program Files\dotnet\;C:\Hadoop\hadoop-3.0.0\bin;C:\Program Files (x86)\sbt\bin;C:\curl\curl-7.61.0-win32-mingw\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\chris.unsworth\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\chris.unsworth\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\chris.unsworth\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Users\chris.unsworth\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\chris.unsworth"/><property name="user.timezone" value="Asia/Tokyo"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Users\chris.unsworth\.IdeaIC2018.2\config\plugins\Scala\launcher\sbt-launch.jar"/><property name="user.name" value="chris.unsworth"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="C:\Users\chris.unsworth\.IdeaIC2018.2\config\plugins\Scala\launcher\sbt-launch.jar idea-shell"/><property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre"/><property name="sun.arch.data.model" value="32"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_121"/><property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp850"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp850"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    </properties>
+                     <testcase classname="Race.evolution.NetworkTest" name="super simple network" time="0.213">
+                                                 
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="train And" time="0.091">
+                                                 <failure message="4 != 1" type="org.apache.commons.math3.exception.DimensionMismatchException">org.apache.commons.math3.exception.DimensionMismatchException: 4 != 1
+	at org.apache.commons.math3.linear.MatrixUtils.checkMultiplicationCompatible(MatrixUtils.java:607)
+	at org.apache.commons.math3.linear.AbstractRealMatrix.multiply(AbstractRealMatrix.java:140)
+	at Race.NeuralNetwork.Network$$anonfun$backwardPropagation$2.apply(Network.scala:69)
+	at Race.NeuralNetwork.Network$$anonfun$backwardPropagation$2.apply(Network.scala:68)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)
+	at Race.NeuralNetwork.Network$.backwardPropagation(Network.scala:68)
+	at Race.NeuralNetwork.Network$.backwardPropagation(Network.scala:59)
+	at Race.NeuralNetwork.Network$$anonfun$train$1$$anonfun$apply$mcVI$sp$1.apply(Network.scala:43)
+	at Race.NeuralNetwork.Network$$anonfun$train$1$$anonfun$apply$mcVI$sp$1.apply(Network.scala:43)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at Race.NeuralNetwork.Network$$anonfun$train$1.apply$mcVI$sp(Network.scala:43)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)
+	at Race.NeuralNetwork.Network$.train(Network.scala:42)
+	at Race.evolution.NetworkTest$$anonfun$2.apply(NetworkTest.scala:29)
+	at Race.evolution.NetworkTest$$anonfun$2.apply(NetworkTest.scala:22)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:183)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite$class.run(Suite.scala:1147)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:113)
+	at sbt.TestRunner.run(TestFramework.scala:124)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:282)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:246)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:282)
+	at sbt.TestFunction.apply(TestFramework.scala:294)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:309)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:67)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:278)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="activations" time="0.003">
+                                                 
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="random" time="0.0">
+                                                 
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="get dimensions" time="0.0">
+                                                 
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="weights" time="0.001">
+                                                 
+                                               </testcase><testcase classname="Race.evolution.NetworkTest" name="copy constructor" time="0.01">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

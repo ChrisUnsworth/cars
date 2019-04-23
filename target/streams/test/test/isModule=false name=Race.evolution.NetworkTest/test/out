@@ -1,0 +1,20 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mNetworkTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- super simple network[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- train And *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.commons.math3.exception.DimensionMismatchException: 4 != 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.commons.math3.linear.MatrixUtils.checkMultiplicationCompatible(MatrixUtils.java:607)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.commons.math3.linear.AbstractRealMatrix.multiply(AbstractRealMatrix.java:140)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Race.NeuralNetwork.Network$$anonfun$backwardPropagation$2.apply(Network.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Race.NeuralNetwork.Network$$anonfun$backwardPropagation$2.apply(Network.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:733)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:732)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Race.NeuralNetwork.Network$.backwardPropagation(Network.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Race.NeuralNetwork.Network$.backwardPropagation(Network.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- activations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- random[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- get dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- weights[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- copy constructor[0m[0m
